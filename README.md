@@ -2,7 +2,8 @@
 Interactive chess game using Python, Pygame, Numpy. AI to play against.
 
 
-Three main files: chess_piece.py, chess_init.py, chessgame.py
+Three code files: chess_piece.py, chess_init.py, chessgame.py
+The other files are images.
 
 chess_piece.py creates a class called piece, which describes all the possible moves every chess piece can make (except from castling) within the context of an 8 by 8 numpy array. Instances of this class are created, and these objects are all the white and black chess pieces.
 
