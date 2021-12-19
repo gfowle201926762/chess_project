@@ -1,6 +1,6 @@
 # chess_project
 
-# overview
+## overview
 An interactive chess game which uses Python3.6 and the modules Pygame and Numpy. Two humans can play against each other, or you can play against an AI, or you can see what happens when the AI plays itself.
 
 # description
