@@ -3,7 +3,7 @@
 ## overview
 An interactive chess game which uses Python3.6 and the modules Pygame and Numpy. Two humans can play against each other, or you can play against an AI, or you can see what happens when the AI plays itself.
 
-# description
+## description
 Three code files: chess_piece.py, chess_init.py, chessgame.py. Run chess_init.py to play.
 The other files are images.
 
@@ -13,7 +13,7 @@ chess_init.py handles the graphics for the game using the pygame module, and con
 
 chessgame.py handles the AI. The function program_white describes the logic behind the chess AI for both white and black players. There is the option to have the AI to play completely random (but legal) moves, or for it to 'try' to win through this logic.
 
-# libraries used
+## libraries used
 Pygame
 Numpy
 
