@@ -14,11 +14,5 @@ chess_init.py handles the graphics for the game using the pygame module, and con
 chessgame.py handles the AI. The function program_white describes the logic behind the chess AI for both white and black players. There is the option to have the AI to play completely random (but legal) moves, or for it to 'try' to win through this logic.
 
 ## libraries used
-Pygame
-Numpy
-
-
-- Bullet list
-    - Nested bullet
-        - Sub-nested bullet etc
-- Bullet list item 2 
+- Pygame
+- Numpy
