@@ -3,6 +3,10 @@
 ## overview
 Run chess_init.py to play. An interactive chess game which uses Python3.6 and the modules Pygame and Numpy. Two humans can play against each other, or you can play against an AI, or you can see what happens when the AI plays itself.
 
+## libraries used
+- Pygame
+- Numpy
+
 ## description
 Three code files: chess_piece.py, chess_init.py, chessgame.py. Run chess_init.py to play.
 The other files are images.
@@ -13,6 +17,11 @@ chess_init.py handles the graphics for the game using the pygame module, and con
 
 chessgame.py handles the AI. The function program_white describes the logic behind the chess AI for both white and black players. There is the option to have the AI to play completely random (but legal) moves, or for it to 'try' to win through this logic.
 
-## libraries used
-- Pygame
-- Numpy
+## Challenges
+This project had several challenges, especially considering it was the first large project I have completed. Correctly configuring pygame's while loop with such complex move sequences was an initial difficulty. Building the logic for the AI was particularly time consuming, especially when factoring in chess positions which would only become relevant several moves down the line. Chess has a large branching factor which quickly overloads computation time, therefore I had to find ways to artificially choose which future moves should factor in to its final decision.
+
+## What I learnt
+Given this was my first large project, I learnt a lot about basic and intermediate programming concepts with Python such as classes, loops, accessing data from lists, and finding ways to optimise computing time. Beyond the Python language itself, this project taught me how to convert game positions into computer-readable format, and to find proxies for determining which move is 'better' or 'worse' which the programme can then use as a heuristic.
+
+## Future features
+I would like to build a similar programme for the Go board game. Chess has distinct tells which make it easier to decide whether a move is good or bad, such as taking an opponent's piece which has a high value. On the other hand, Go has no such obvious tells which help decide the next move. I am curious as to what heuristics a programme could potentially use, and I would enjoy the challenge of implementing them.
