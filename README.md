@@ -18,13 +18,15 @@ chess_init.py handles the graphics for the game using the pygame module, and con
 chessgame.py handles the AI. The function program_white describes the logic behind the chess AI for both white and black players. There is the option to have the AI to play completely random (but legal) moves, or for it to 'try' to win through this logic.
 
 ## The game
-###The start screen:
-Black and white can be played by a human, or an AI which plays random moves, or an AI which plays intelligent (relatively speaking) moves.
+The start screen: Black and white can be played by a human, or an AI which plays random moves, or an AI which plays intelligent (relatively speaking) moves.
 ![alt text](https://github.com/gfowle201926762/chess_project/blob/main/Screenshot%202022-01-03%20at%2012.32.21.png?raw=true)
 
-###Intuitive moves:
-Click on a piece to see where you can move it. If the opponent is the AI, it will move automatically once you have played.
+Intuitive moves: Click on a piece to see where you can move it. If the opponent is the AI, it will move automatically once you have played. The last move played by your opponent will show on the screen with the change of tile colours.
 ![alt text](https://github.com/gfowle201926762/chess_project/blob/main/Screenshot%202022-01-03%20at%2012.33.23.png?raw=true)
+
+Checkmate: Once a player is in checkmate, the game will end.
+![alt text](https://github.com/gfowle201926762/chess_project/blob/main/Screenshot%202022-01-03%20at%2012.35.43.png?raw=true)
+
 
 ## Challenges
 This project had several challenges, especially considering it was the first large project I have completed. Correctly configuring pygame's while loop with such complex move sequences was an initial difficulty. Building the logic for the AI was particularly time consuming, especially when factoring in chess positions which would only become relevant several moves down the line. Chess has a large branching factor which quickly overloads computation time, therefore I had to find ways to artificially choose which future moves should factor in to its final decision.
